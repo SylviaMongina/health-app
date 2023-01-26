@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Medication from "./Medication";
 
 
-function MedicationList({handleAddItem}) {
+function Medicationlist({handleAddItem}) {
     const [medications, setMedications] = useState([]);
     useEffect(() => {
         fetch('https://medicationsapi.herokuapp.com/medications')
@@ -13,9 +13,9 @@ function MedicationList({handleAddItem}) {
             return () => console.log('cleanup');
     }, []);
 
-    function handleAddItem(newItem) {
-        setMedications([...medications, newItem]);
-      }
+    // function handleAddItem(newItem) {
+    //     setMedications([...medications, newItem]);
+    //   }
 
     return (
         <table className="Table-list">
@@ -55,4 +55,4 @@ function MedicationList({handleAddItem}) {
     
 }
 
-export default MedicationList;
+export default Medicationlist;

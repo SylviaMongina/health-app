@@ -31,12 +31,6 @@ function AddMedicationform({onAddItem}) {
     }
 
 
-    function handleChange(event) {
-        setMedication({
-            ...medication,
-            [event.target.name]: event.target.value,
-        });
-    }
     return (
         <div className="Header-search">
             <h3>All Medications</h3>
@@ -70,4 +64,4 @@ function AddMedicationform({onAddItem}) {
     );
 }
 
-export default AddMedicationForm;
+export default AddMedicationform;

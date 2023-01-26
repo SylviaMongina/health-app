@@ -1,14 +1,14 @@
 import React from "react";
 import Search from "./Search";
-import AddMedicationForm from "./AddMedicationForm";
+import AddMedicationform from "./AddMedicationform";
 import Medicationlist from "./Medicationlist";
 
 function Drugslist() {
     return (
         <div>
         <Search />
-        <AddMedicationForm />
-        <MedicationList />
+        <AddMedicationform />
+        <Medicationlist />
         </div>
     )
 }
