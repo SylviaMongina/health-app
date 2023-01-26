@@ -70,4 +70,4 @@ function AddMedicationform({onAddItem}) {
     );
 }
 
-export default AddMedicationform;
+export default AddMedicationForm;

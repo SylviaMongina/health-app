@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Doctors from "./Doctors";
 
 
-function AllDoctors({handleAddItem}) {
+function Alldoctors({handleAddItem}) {
     const [doctors, setDoctors] = useState([]);
     useEffect(() => {
         fetch('https://medicationsapi.herokuapp.com/doctors')
@@ -50,4 +50,4 @@ function AllDoctors({handleAddItem}) {
     )
 }
 
-export default AllDoctors;
+export default Alldoctors;

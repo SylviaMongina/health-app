@@ -1,5 +1,152 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+/*Navbar*/
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  padding-bottom: 5px;
+  width: 100vw;
+  padding: 10px;
+  background-color: #dcf2f9;
+  color: #13376c;
+  font-family: 'Manrope', sans-serif;
+}
+
+.Nav a {
+  text-decoration: none;
+}
+
+.Nav li {
+  list-style-type: none;
+  font-family: 'Manrope', sans-serif;
+}
+
+.Nav-right ul {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.Nav-right ul li {
+  padding: 12px;
+}
+
+.Btn-navbar {
+  background-color: #dcf2f9;
+  color: #13376c;
+  border-radius: 25px;
+  padding: 4px;
+  width: 80px;
   text-align: center;
+  text-decoration: none;
+  font-family: 'Manrope', sans-serif;
+  border-style: solid;
+  border-color: #13376c;
+}
+.Logo {
+  font-family: 'Manrope', sans-serif;
+}
+
+/*Hero search section*/
+.Header-search {
+  text-align: center;
+  color: #13376c;
+  font-weight: 1200;
+  font-family: 'Manrope', sans-serif;
+  margin: 0%;
+}
+.Hero-search {
+  margin: 0%;
+  background-color: #dcf2f9;
+}
+.Intro-search {
+  margin-left: 140px;
+  color: #13376c;
+  font-family: 'Manrope', sans-serif;
+}
+
+.Search-box {
+  width: 70vw;
+  padding: 8px;
+  border-radius: 12px;
+  font-family: 'Manrope', sans-serif;
+}
+
+.hero-image img{
+  margin-left: 50px;
+ 
+}
+
+.hero-image h1 {
+  color: #13376c;
+  text-align: center;
+}
+
+.hero-image h3 {
+  color: #13376c;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+/*form*/
+.Add-form {
+  font-family: 'Manrope', sans-serif;
+}
+
+.Add-form input {
+  padding: 8px;
+  border-radius: 4px;
+  margin: 2px;
+  border-color: #e2d2d2;
+}
+
+.Add-form select {
+  padding: 8px;
+  border-radius: 4px;
+  margin: 2px;
+  border-color: #e2d2d2;
+  background-color: #fff;
+}
+
+.Btn-form {
+  color: #13376c;
+  border-radius: 25px;
+  padding: 4px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Manrope', sans-serif;
+  border-style: solid;
+  border-color: #13376c;
+  margin: 10px;
+}
+
+/*list section*/
+.Header-search p {
+  color: #212121;
+  font-size: 16px;
+}
+
+/*table list*/
+.Table-list {
+  text-align: center;
+}
+.Table-body tr th{
+  
+  border-color: #212121;
+  background-color: #dcf2f9;
+}
+.Table-body h3 {
+  padding: 5px;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  color: #13376c;
+  width: 20vw;
+  margin: 0%;
 }
 
 .App-logo {
@@ -32,6 +179,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
